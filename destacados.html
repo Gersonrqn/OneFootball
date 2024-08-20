@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>DESTACADOS</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/adidas-italia10.jpg" alt="">
+                    </div>
+                    <p class="descripcion">ITALIA</p>
+                    <span class="precio">Q. 235.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/adidas-Colombia9.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>COLOMBIA</p>
+                    <span class="precio">Q. 199.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/españa-away.jpg" alt="">
+                    </div>
+                    <p class="descripcion">ESPAÑA</p>
+                    <span class="precio">Q. 175.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/inter-miami.jpg" alt="">
+                    </div>
+                    <p class="descripcion">INTER DE MIAMI</p>
+                    <span class="precio">Q. 229.99</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/jamaica.jpg" alt="">
+                    </div>
+                    <p class="descripcion">JAMAICA</p>
+                    <span class="precio">Q. 199.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/nigeria.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">NIGERIA</p>
+                    <span class="precio">Q. 175.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/marruecos.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">MARRUECOS</p>
+                    <span class="precio">Q. 140.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/marsella.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">MARSELLA</p>
+                    <span class="precio">Q. 145.00</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img2/adidas-italia10.jpg" alt="" id="img">
+                <h2 id="modelo">ITALIA</h2>
+                <p id="descripcion">Camiseta oficial de la seleccion italiana</p>
+
+                <span class="precio" id="precio">Q. 235.00</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

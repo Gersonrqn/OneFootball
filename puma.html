@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Jerseys Puma</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="img2/logoPuma.png" height="100" width="200">
+        </div>
+    </header>
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma1-dormount.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">BORUSSIA DORTMUND</p>
+                    <span class="precio">Q. 230.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma2-girona.jpeg" alt="">
+                    </div>
+                    <p class="descripcion" id>GIRONA</p>
+                    <span class="precio">Q. 199.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma3-salzburg.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">RED BULL SALZBUG</p>
+                    <span class="precio">Q. 149.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma4-valencia.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">VALENCIA</p>
+                    <span class="precio">Q. 125.OO</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma5-mancity.jpg" alt="">
+                    </div>
+                    <p class="descripcion">MANCHESTER CITY</p>
+                    <span class="precio">Q. 299.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma6-leipzig.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">RB LEIPZIG</p>
+                    <span class="precio">Q. 199.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma7-lens.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">LENS</p>
+                    <span class="precio">Q. 160.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img2/puma8-milan.jpg" alt="">
+                    </div>
+                    <p class="descripcion">AC MILAN</p>
+                    <span class="precio">Q. 150.00</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img2/puma9-palmeiras.jpg" alt="" id="img">
+                <h2 id="modelo">Equipo brasileño de futbol</h2>
+                <p id="descripcion">PALMERIAS</p>
+
+                <span class="precio" id="precio">Q. 199.00</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
