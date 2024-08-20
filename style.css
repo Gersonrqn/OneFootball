@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 :root {
 	--colorPrimario: #6EACDA;
 	--background-color: #f9f5f0;
@@ -18,8 +16,6 @@ html {
 	box-sizing: border-box;
 }
 
-
-/* UTILIDADES */
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
@@ -31,7 +27,6 @@ html {
 	font-size: 3rem;
 }
 
-/* HEADER */
 .container-hero {
 	background-color: var(--background-color);
 }
@@ -100,7 +95,6 @@ html {
 	flex-direction: column;
 }
 
-/* NAVBAR */
 .container-navbar {
 	background-color: var(--colorPrimario);
 }
@@ -196,8 +190,6 @@ html {
 	color: #fff;
 }
 
-
-/* BANNER */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
 		url('img2/banner.jpg');
@@ -237,13 +229,10 @@ html {
 	border-radius: 3rem;
 }
 
-/*MAIN CONTENT*/
 .main-content {
 	background-color: var(--background-color);
 }
 
-
-/* FEATURES */
 .container-features {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -268,8 +257,6 @@ html {
 	font-weight: 500;
 }
 
-
-/* CATEGORIES */
 .top-categories {
 	display: flex;
 	flex-direction: column;
@@ -346,8 +333,6 @@ html {
 	color: var(--colorPrimario);
 }
 
-
-/* TOP PRODUCTS */
 .top-products {
 	display: flex;
 	flex-direction: column;
@@ -382,7 +367,6 @@ html {
 	color: #fff;
 }
 
-/* Products */
 .container-products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -535,8 +519,6 @@ html {
 	margin-left: 0.5rem;
 }
 
-
-/* GALLERY */
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -556,8 +538,6 @@ html {
 	grid-row: 1/3;
 }
 
-
-/* SPECIALS */
 .specials {
 	display: flex;
 	flex-direction: column;
@@ -565,8 +545,6 @@ html {
 	margin-bottom: 3rem;
 }
 
-
-/* BLOGS */
 .blogs {
 	display: flex;
 	flex-direction: column;
@@ -670,7 +648,6 @@ html {
 	background-color: var(--colorOscuro);
 }
 
-/* FOOTER */
 .footer {
 	background-color: var(--colorPrimario);
 
@@ -730,7 +707,6 @@ html {
 	font-size: 1.6rem;
 }
 
-/* MEDIA QUERIES -- 768px */
 @media (max-width: 768px) {
 	html {
 		font-size: 55%;
@@ -830,7 +806,7 @@ html {
 		gap: 1.5rem;
 	}
 }
-/*MEDIA QUERIES -- 468px*/
+
 @media (max-width: 468px) {
 	html {
 		font-size: 42.5%;
